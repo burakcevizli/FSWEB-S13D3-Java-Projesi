@@ -14,7 +14,8 @@ public class Person {
         this.age = age;
     }
 
-    public Person(String education, int id, int heigth){
+    public Person( String firstName, String lastName, int age,String education, int id, int heigth){
+        this(firstName,lastName,age);
         this.education=education;
         this.id=id;
         this.heigth=heigth;
